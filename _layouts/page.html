@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<article class="post">
+  <header class="post-header">
+    <h1
+      class="post-title i18n-text"
+      data-i18n-zh="{{ page.title_zh | default: page.title | escape }}"
+      data-i18n-en="{{ page.title_en | default: page.title | escape }}"
+    >{{ page.title_en | default: page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+</article>

@@ -2,7 +2,11 @@
   <data class="u-url" href="{{ '/' | relative_url }}"></data>
 
   <div class="wrapper">
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+    <h2
+      class="footer-heading i18n-text"
+      data-i18n-zh="深圳市今嘻嘻科技有限公司"
+      data-i18n-en="Shenzhen Jinxixi Technology Co., Ltd."
+    >Shenzhen Jinxixi Technology Co., Ltd.</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
@@ -17,9 +21,6 @@
         {%- include social.html -%}
       </div>
 
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
     </div>
   </div>
 </footer>

@@ -1,51 +1,91 @@
 ---
 layout: page
 title: Privacy Policy
+title_zh: 隐私政策
+title_en: Privacy Policy
 permalink: /privacy/
 ---
 
-# Privacy Policy
+<div class="lang-en lang-block" markdown="1">
 
-Protecting your privacy is important to us. We hope the following statement will help you understand how we deals with the personal identifiable information you may occasionally provide to us via Internet.
+This Privacy Policy explains how Shenzhen Jinxixi Technology Co., Ltd. handles limited information obtained through website access and email communications.
 
-This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.
+This policy applies to the website operated under the domain `www.jinxixitech.com` and to communications sent to our official contact addresses.
 
-If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that us collect is used for providing and  improving the Service. we will not use or share your information with anyone except as described in this Privacy Policy.
+## Information We May Collect
 
-#### Information Collection and Use
+We may collect limited information only in the following situations:
 
-For a better experience, while using our Service, we collect information about you that includes, device information, usage information, this app's version, IP addresses, device language,  operating system version. 
+- If you contact us directly by email, we may receive your email address and the content of your message
+- During normal website access, limited technical information may be recorded, such as IP address, browser type, and access time
 
-When you personally decide to email us your feedback or to provide us with a bug report. The personal information we may get from you in that situation are strictly limited to your email address, your device and your system version. we guarantee that your personal information will only be used for contacting you and improving our services. We will never use such information for any other purposes. It should be noted that whether or not to send us your feedback or bug report is a completely voluntary initiative upon your own decision.
+## How We Use Information
 
-The app does use third party services that may collect information used to identify you. We use Google Admob, Firebase Analytics and Crashlytics. Link to privacy policy of third party service providers used by the app.
+We use collected information only for legitimate business purposes, including:
 
- - [Google AdMob](https://policies.google.com/privacy/google-partners)
- - [Firebase Analytics and Crashlytics](https://firebase.google.com/support/privacy) 
+- Responding to inquiries and support requests
+- Maintaining the normal operation and security of the website
+- Handling necessary internal administrative or technical matters related to the website and communications
 
-#### Information we do not collect
+## Information Sharing
 
-We do not collect personal directory data such as calendar, address book, phone/text log or photo/video data created by you and stored or accessed on your device.
+We do not sell personal information. Information may be disclosed only when required by law, necessary to protect our rights, or needed for basic website operation and communication handling.
 
-#### Security of Information
+## Third-Party Links
 
-The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use  commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.
+Our website may contain links to third-party websites. We are not responsible for the privacy practices or content of those external sites.
 
-#### Links To Other Sites
+## Policy Updates
 
-Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.
+We may update this Privacy Policy from time to time. Any changes will be posted on this page with the updated version taking effect once published.
 
-We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
+## Contact Us
 
-#### Children’s Privacy
+If you have any questions about this Privacy Policy, please contact us:
 
-These Services do not address anyone under the age of 13. we do not knowingly collect personally identifiable information from children under 13. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do necessary actions.
+- General: <contact@jinxixitech.com>
+- Support: <support@jinxixitech.com>
 
-#### Changes To This Privacy Policy
+</div>
 
-We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.
+<div class="lang-zh lang-block" markdown="1">
 
-#### Contact Us 
+本隐私政策说明深圳市今嘻嘻科技有限公司如何处理通过网站访问及电子邮件沟通获得的有限信息。
 
-If you have any questions or suggestions about our Privacy Policy, please contact us: 
-<{{ site.email }}>
+本政策适用于 `www.jinxixitech.com` 网站，以及发送至我们官方联系邮箱的相关沟通信息。
+
+## 我们可能收集的信息
+
+我们仅在以下情况下收集有限信息：
+
+- 当您主动通过电子邮件联系我们时，我们可能收到您提供的邮箱地址及邮件内容
+- 在网站正常访问过程中，可能产生基础技术访问记录，例如 IP 地址、浏览器类型和访问时间
+
+## 信息使用方式
+
+我们仅在合法、合理的业务范围内使用收集的信息，包括：
+
+- 回复咨询或支持请求
+- 维护网站的正常运行与安全
+- 处理与网站及沟通事务相关的必要内部管理或技术事项
+
+## 信息共享
+
+我们不会出售个人信息。仅在法律要求、保护合法权益或网站基本运行与沟通处理确有必要时，才可能披露相关信息。
+
+## 第三方链接
+
+本网站可能包含指向第三方网站的链接。对于这些外部网站的内容或隐私做法，我们不承担责任。
+
+## 政策更新
+
+我们可能会不时更新本隐私政策。更新后的版本将在本页面发布，并自发布之日起生效。
+
+## 联系我们
+
+如果您对本隐私政策有任何问题，请通过以下方式联系我们：
+
+- 商务联系：<contact@jinxixitech.com>
+- 支持邮箱：<support@jinxixitech.com>
+
+</div>

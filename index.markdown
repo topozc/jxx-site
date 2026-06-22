@@ -1,118 +1,168 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
+title: Home
+title_zh: 首页
+title_en: Home
 ---
 
 <style>
-  .download-panel {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    align-items: center;
+  .hero-panel,
+  .section-panel {
     margin: 2rem 0;
-    padding: 2rem;
-    border: 1px solid #e2e8f0;
-    border-radius: 20px;
-    background: #ffffff;
+    padding: 2.25rem;
+    border: 1px solid #edf2f7;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.92);
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.04);
   }
 
-  .app-icon {
-    width: 128px;
-    height: 128px;
-    border-radius: 28px;
-    object-fit: cover;
-    flex-shrink: 0;
+  .hero-panel h1,
+  .section-panel h2 {
+    margin-top: 0;
+    letter-spacing: -0.03em;
   }
 
-  .download-copy {
-    flex: 1 1 280px;
-  }
-
-  .download-copy h2 {
-    margin: 0 0 0.5rem;
-  }
-
-  .download-copy p {
-    margin: 0.5rem 0;
+  .hero-panel p,
+  .section-panel p,
+  .section-panel li {
     color: #475569;
   }
 
-  .download-links {
-    margin-top: 1rem;
+  .hero-subtitle {
+    margin: 1rem 0 0.85rem;
+    font-size: 1.05rem;
+    color: #334155;
   }
 
-  .download-links a {
-    display: inline-block;
-    text-decoration: none;
+  .info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 0.9rem;
+    margin-top: 1.5rem;
   }
 
-  .download-links img {
-    width: 160px;
-    height: auto;
-    display: block;
-  }
-
-  .contact-line {
-    margin-top: 2rem;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.6rem;
-    padding: 0.7rem 1rem;
-    border: 1px solid #e2e8f0;
-    border-radius: 999px;
+  .info-card {
+    padding: 1.05rem 1.1rem;
+    border-radius: 16px;
     background: #f8fafc;
-    color: #64748b;
-    font-size: 0.95rem;
-    line-height: 1;
+    border: 1px solid #eef2f7;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6);
   }
 
-  .contact-line strong {
+  .info-card strong {
+    display: block;
+    margin-bottom: 0.45rem;
     color: #0f172a;
-    font-size: 0.78rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
+    font-size: 0.84rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
   }
 
-  .contact-line a {
-    color: #2563eb;
+  .info-card a {
+    color: var(--brand);
     text-decoration: none;
-    font-weight: 500;
+    word-break: break-word;
   }
 
-  .contact-line a:hover {
+  .info-card span,
+  .info-card a {
+    font-size: 0.98rem;
+    line-height: 1.6;
+  }
+
+  .info-card a:hover {
     text-decoration: underline;
   }
 
+  .hero-panel {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-panel::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(circle at top right, rgba(37, 99, 235, 0.06), transparent 28%),
+      radial-gradient(circle at left center, rgba(148, 163, 184, 0.06), transparent 24%);
+    pointer-events: none;
+  }
+
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  .hero-panel h1 {
+    margin-bottom: 0.4rem;
+    font-size: clamp(2rem, 4vw, 2.8rem);
+    line-height: 1.08;
+  }
+
+  .section-panel h2 {
+    font-size: 1.35rem;
+    margin-bottom: 0.9rem;
+  }
+
   @media (max-width: 640px) {
-    .download-panel {
+    .hero-panel,
+    .section-panel {
       padding: 1.25rem;
-      border-radius: 16px;
+      border-radius: 18px;
     }
 
-    .download-panel {
-      align-items: flex-start;
+    .hero-panel h1 {
+      font-size: 1.7rem;
     }
   }
 </style>
 
-<section class="download-panel">
-  <img
-    class="app-icon"
-    src="/assets/images/app-icon-placeholder.svg"
-    alt="Topo App icon"
-  />
+<section class="hero-panel">
+  <h1>
+    <span class="lang-zh">深圳市今嘻嘻科技有限公司</span>
+    <span class="lang-en">Shenzhen Jinxixi Technology Co., Ltd.</span>
+  </h1>
+  <p class="hero-subtitle">
+    <span class="lang-zh">专注于移动应用、工具软件与数字产品研发</span>
+    <span class="lang-en">Focused on mobile applications, utility software, and digital product development</span>
+  </p>
+  <p class="lang-zh">
+    公司当前以自研产品和软件技术研发为主要方向，
+    围绕产品设计、应用开发与持续迭代开展相关工作。
+  </p>
+  <p class="lang-en">
+    The company is currently focused on in-house products and software development,
+    including product design, application development, and ongoing iteration.
+  </p>
 
-  <div class="download-copy">
-    <h2>Video Compress</h2>
-    <p>Reduce video size quickly, save storage space, and make large clips easier to share without unnecessary quality loss.</p>
-    <div class="download-links">
-      <a href="https://apps.apple.com/us/app/video-compress-shrink-videos/id1163846234" target="_blank" rel="noreferrer" aria-label="Download on the App Store">
-        <img src="/assets/images/AppStore.svg" alt="Download on the App Store" />
-      </a>
+  <div class="info-grid">
+    <div class="info-card">
+      <strong><span class="lang-zh">公司主体</span><span class="lang-en">Company</span></strong>
+      <span class="lang-zh">深圳市今嘻嘻科技有限公司</span>
+      <span class="lang-en">Shenzhen Jinxixi Technology Co., Ltd.</span>
+    </div>
+    <div class="info-card">
+      <strong><span class="lang-zh">官网</span><span class="lang-en">Website</span></strong>
+      <a href="https://www.jinxixitech.com">www.jinxixitech.com</a>
+    </div>
+    <div class="info-card">
+      <strong><span class="lang-zh">联系邮箱</span><span class="lang-en">Contact Email</span></strong>
+      <a href="mailto:contact@jinxixitech.com">contact@jinxixitech.com</a>
+    </div>
+    <div class="info-card">
+      <strong><span class="lang-zh">支持邮箱</span><span class="lang-en">Support Email</span></strong>
+      <a href="mailto:support@jinxixitech.com">support@jinxixitech.com</a>
     </div>
   </div>
 </section>
 
-<p class="contact-line"><strong>Contact</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+<section class="section-panel">
+  <h2><span class="lang-zh">公司简介</span><span class="lang-en">Company Overview</span></h2>
+  <p class="lang-zh">
+    公司当前以自研产品和软件技术研发为主要方向，持续开展产品设计、应用开发与迭代相关工作。
+  </p>
+  <p class="lang-en">
+    The company is currently focused on in-house products and software development, with ongoing work in product design, application development, and iteration.
+  </p>
+</section>
