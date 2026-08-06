@@ -10,7 +10,7 @@ permalink: /privacy/
 
 This Privacy Policy explains how Shenzhen Jinxixi Technology Co., Ltd. handles limited information obtained through website access and email communications.
 
-This policy applies to the website operated under the domain `www.jinxixitech.com` and to communications sent to our official contact addresses.
+This policy applies to the website operated under the domain `jinxixitech.com` and to communications sent to our official contact addresses.
 
 ## Information We May Collect
 
@@ -52,7 +52,7 @@ If you have any questions about this Privacy Policy, please contact us:
 
 本隐私政策说明深圳市今嘻嘻科技有限公司如何处理通过网站访问及电子邮件沟通获得的有限信息。
 
-本政策适用于 `www.jinxixitech.com` 网站，以及发送至我们官方联系邮箱的相关沟通信息。
+本政策适用于 `jinxixitech.com` 网站，以及发送至我们官方联系邮箱的相关沟通信息。
 
 ## 我们可能收集的信息
 
