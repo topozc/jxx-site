@@ -294,6 +294,8 @@ body { background: linear-gradient(180deg, #f4f7fb 0%, #eef3f8 100%); color: var
 
 .site-brand:hover { text-decoration: none; }
 
+.site-brand-name { display: block; color: var(--text); font-size: 1.3rem; font-weight: 700; line-height: 1.15; letter-spacing: -0.02em; }
+
 .site-footer { padding: 16px 0; margin-top: 2rem; border-top: 1px solid var(--line-soft); background: transparent; }
 
 .site-footer .wrapper { padding-top: 0; padding-bottom: 0; }
@@ -322,7 +324,9 @@ html[data-lang="zh"] .lang-en, html[data-lang="en"] .lang-zh { display: none !im
 
 .lang-block { margin-top: 0; }
 
-.site-title { max-width: none; display: block; color: var(--text); font-size: 1.25rem; font-weight: 600; line-height: 1.25; letter-spacing: -0.02em; }
+.site-title { max-width: none; display: block; color: var(--text); line-height: 1.25; letter-spacing: -0.01em; }
+
+.site-title-sub { margin-top: 2px; color: var(--text-soft); font-size: 0.82rem; font-weight: 500; }
 
 .site-nav { float: none; line-height: normal; }
 
@@ -340,6 +344,6 @@ html[data-lang="zh"] .lang-en, html[data-lang="en"] .lang-zh { display: none !im
 
 @media screen and (max-width: 860px) { .site-header .wrapper { padding-top: 12px; padding-bottom: 12px; } .site-header-inner { align-items: flex-start; flex-direction: column; } .site-brand { width: 100%; } .site-nav { width: 100%; position: relative; top: auto; right: auto; border: 0; background: transparent; text-align: left; } .nav-toggle { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; margin-left: auto; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); cursor: pointer; box-shadow: var(--shadow-sm); } .site-nav .menu-icon { display: block; width: 18px; height: 18px; line-height: 0; padding: 0; } .site-nav .menu-icon > svg { fill: var(--text); } .site-nav input ~ .trigger { display: none; margin-top: 12px; padding: 14px; border: 1px solid var(--line); border-radius: 16px; background: var(--surface); box-shadow: var(--shadow-md); } .site-nav input:checked ~ .trigger { display: flex; flex-direction: column; align-items: stretch; gap: 14px; } .nav-links { flex-direction: column; align-items: stretch; gap: 6px; } .site-nav .page-link { padding: 10px 12px; } .lang-switch { align-self: flex-start; } }
 
-@media screen and (max-width: 600px) { .lang-switch { display: flex; } .site-title { font-size: 1.05rem; } }
+@media screen and (max-width: 600px) { .lang-switch { display: flex; } .site-title { font-size: inherit; } .site-brand-name { font-size: 1.08rem; } .site-title-sub { font-size: 0.74rem; } }
 
 /*# sourceMappingURL=main.css.map */

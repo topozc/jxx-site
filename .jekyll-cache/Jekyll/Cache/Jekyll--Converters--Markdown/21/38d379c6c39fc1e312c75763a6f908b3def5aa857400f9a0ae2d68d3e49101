@@ -1,4 +1,4 @@
-I"�<style>
+I"$<style>
   .hero-panel,
   .section-panel {
     margin: 2rem 0;
@@ -113,20 +113,18 @@
 
 <section class="hero-panel">
   <h1>
-    <span class="lang-zh">深圳市今嘻嘻科技有限公司</span>
-    <span class="lang-en">Shenzhen Jinxixi Technology Co., Ltd.</span>
+    <span class="lang-zh">今嘻嘻科技</span>
+    <span class="lang-en">Jinxixi Tech</span>
   </h1>
   <p class="hero-subtitle">
-    <span class="lang-zh">专注于移动应用、工具软件与数字产品研发</span>
-    <span class="lang-en">Focused on mobile applications, utility software, and digital product development</span>
+    <span class="lang-zh">深圳市今嘻嘻科技有限公司的软件与移动应用开发</span>
+    <span class="lang-en">Software and mobile application development by Shenzhen Jinxixi Technology Co., Ltd.</span>
   </p>
   <p class="lang-zh">
-    公司当前以自研产品和软件技术研发为主要方向，
-    围绕产品设计、应用开发与持续迭代开展相关工作。
+    我们开发移动应用、工具软件和数字产品。
   </p>
   <p class="lang-en">
-    The company is currently focused on in-house products and software development,
-    including product design, application development, and ongoing iteration.
+    We develop mobile applications, utility software, and digital products.
   </p>
 
   <div class="info-grid">
@@ -137,7 +135,7 @@
     </div>
     <div class="info-card">
       <strong><span class="lang-zh">官网</span><span class="lang-en">Website</span></strong>
-      <a href="https://www.jinxixitech.com">www.jinxixitech.com</a>
+      <a href="https://jinxixitech.com">jinxixitech.com</a>
     </div>
     <div class="info-card">
       <strong><span class="lang-zh">联系邮箱</span><span class="lang-en">Contact Email</span></strong>
